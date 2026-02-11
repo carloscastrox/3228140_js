@@ -34,19 +34,45 @@
 
     <header
         class="container-fluid py-3 d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-3 mb-4">
-        <div>
-            <p class="h3 mb-1">CRUD Datos</p>
-            <p class="text-muted mb-0">Feature-Based + Bootstrap 5 + localStorage</p>
-        </div>
 
-        <div class="d-flex gap-2">
-            <button class="btn btn-warning" id="btnExportar">
-                <i class="bi bi-download"></i> Exportar JSON
-            </button>
-            <button class="btn btn-danger" id="btnBorrarTodo">
-                <i class="bi bi-trash3"></i> Borrar todo
-            </button>
-        </div>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="jslogo.png" alt="Logo" style="width:40px;" class="rounded-pill">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./">Crud</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="callbacks.html">Callback</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="promises.html">Promise</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="asyncawait.html">Async await</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="destructuring.html">Object Destructuring</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex gap-2">
+                        <button class="btn btn-warning" id="btnExportar">
+                            <i class="bi bi-download"></i> Exportar JSON
+                        </button>
+                        <button class="btn btn-danger" id="btnBorrarTodo">
+                            <i class="bi bi-trash3"></i> Borrar todo
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <main class="container-fluid">

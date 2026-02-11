@@ -79,8 +79,27 @@ Implementar una función busquedaBaseDatos1 que busque en baseDatos1 un país, y
 Si el dato NO se encontró en baseDatos1 deberá retornar con un callback a la función busquedaBaseDatos2, y si lo encuentra retornar con un callback a la función encontrado la cual debe imprimir el mensaje ‘Pais encontrado’.
 Si el dato NO se encontró en baseDatos2 deberá mostrar el mensaje ‘Dato no encontrado’
 
+
 Actividad 4: Promises
 Agregar una descripción de Promises y luego implementar la siguiente función utilizando Promises:
 
 * Crear una promesa que reciba una cadena y si esta finaliza en vocal devolver con el resolve la vocal, en caso contrario en el reject retornar ‘el caracter no es una vocal’. Se deben tener encuenta las vocales en minúsculas y en mayúsculas.
+
+Actividad 5: Async/Await
+Agregar una descripción de Async/Await y luego implementar la siguiente función utilizando Async/Await:
+* Crear una función asíncrona que reciba un número y retorne el doble del número después de 2 segundos. Utilizar async/await para manejar la promesa.
+
+Actividad 6: Destructuring Objects
+Agregar una descripción de Destructuring Objects y luego implementar la siguiente función utilizando Destructuring Objects:
+
+* Dado el siguiente objeto:
+const person = {
+  name: 'Juan Carlos Valencia',
+  age: 30,
+  city: 'Cali',
+  profession: 'Desarrollador'
+};          
+Utilizando destructuring, extraer el nombre, la edad y la profesión de la persona e imprimirlos.
+
+
 */
